@@ -1,0 +1,9 @@
+pip install langdetect
+# Specifying the language for
+# detection
+print(detect("Hello World"))
+print(detect("Привет мир"))
+print(detect("Saluton mondo"))
+print(detect("你好，世界"))
+print(detect("नमस्ते दुनिया"))
+print(detect("こんにちは世界"))
